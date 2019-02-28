@@ -8,8 +8,9 @@ import styles from './app.css';
 
 const App = () => (
   <div className={styles.container}>
-    <div className={styles.title}>Kayak UI Acadamy exercise</div>
+  <div className={styles.size}>
     <Autocomplete />
+  </div>
   </div>
 );
 
